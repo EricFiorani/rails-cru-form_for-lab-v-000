@@ -7,7 +7,7 @@
   <p>Bio: <%= @artist.bio %></p><br />
 
   <p>Genres:</p>
-  <ul>
-    <% @artist.genres.each do |genre| %>
+  <ul><% @artist.genres.each do |genre| %></ul>
     <li><%= genre.name %></li>
-  </ul>
+  <% end %>
+
