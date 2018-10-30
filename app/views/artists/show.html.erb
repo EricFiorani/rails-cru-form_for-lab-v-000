@@ -9,5 +9,8 @@
   <p>Genres:</p>
   <ul><% @artist.genres.each do |genre| %></ul>
     <li><%= genre.name %></li>
-  <% end %>
+    <% end %>
 
+  <p>Songs:</p>
+  <ul><% @artist.songs.each do |songs| %></ul>
+    <li><%= song.name %></li>
